@@ -1,93 +1,151 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="author" content="Mike Stanley">
-    <meta name="description" content="Mike Stanley's Bio">
-    <!-- google fonts -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
-    <!-- -->
-    <link rel="stylesheet" href="/assets/css/bootstrap-social.css" type="text/css">
-    <!-- local css -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Mike Stanley's Bio</title>
-</head>
-
-<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Mike Stanley's Portfolio</title>
+    </head>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Mike Stanley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">Mike Stanley</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <!-- add section for skills with language icons -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/html/portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="assets/html/contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="assets/html/support.html">Support</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
-        <a class="btn btn-social-icon btn-twitter">
-            <span class="fa fa-twitter"></span>
-          </a>
     </nav>
-    <div class="container-fluid" style="padding-top: 1%;">
-        <div class="row" id="main">
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
-            <div class="col-xs-12 col-sm-10 col-md-8">
-                <div class="card text-left">
-                    <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">About Me</h1>
-                    <hr>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                                <img class="card-img" src="images/headshot.jpg" alt="My goofy selfie"">
-                                            </div>
-                                            <div class=" col-xs-12 col-sm-6 col-md-8 col-xl-9 col-xl-10">
-                                <p class="card-text">Hey there! Here is some information about me. Wow! Really cool
-                                    huh?! Well, I'm glad you liked it because here's some more. I know, I know, really
-                                    fascinating stuff. What more can I say? Oh wait, here's a bit more.</p>
-                                <p class="card-text">And... some more information.</p>
-                                <p class="card-text">Finally, here's the last bit of information.</p>
+        <!-- About -->
+        <div class="container-fluid" style="padding-top: 1%" id="aboutMe">
+            <div class="row" id="main">
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
+                <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="card text-left">
+                        <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">About Me</h1>
+                        <hr>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                    <img class="card-img" src="images/headshot.jpg" alt="My goofy selfie"">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-8 col-xl-9 col-xl-10">
+                                    <p class="card-text">Hey there! Here is some information about me. Wow! Really cool huh?! Well, I'm glad you liked it because here's some more. I know, I know, really fascinating stuff. What more can I say? Oh wait, here's a bit more.</p>
+                                    <p class="card-text">And... some more information.</p>
+                                    <p class="card-text">Finally, here's the last bit of information.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
             </div>
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
         </div>
-    </div>
-    <footer id="sticky-footer" class="fixed-bottom py-3 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy;</small>
-        </div>
-    </footer>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <!-- popper JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <!-- Local JS -->
-    <script src="assets/javascript/app.js"></script>
-</body>
+        <!-- Skills -->
 
+        <!-- Projects -->
+        <div class="container-fluid" style="padding-top: 1%" id="projects">
+            <div class="row" id="main">
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
+                <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="card text-left">
+                        <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">Portfolio</h1>
+                        <hr>
+                        <div class="card-body">
+                            <div class="row" id="main1">
+                                <div class="col-xs-12 col-sm-6 col-xl-4">
+                                    <figure class="figure">
+                                        <img class="figure-img img-fluid rounded" src="images/balloons.jpg" alt="text">
+                                    </figure>
+                                    <h4>Balloon Game</h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-xl-4">
+                                    <figure class="figure">
+                                        <img class="figure-img img-fluid rounded" src="images/dog.jpg" alt="text">
+                                    </figure>
+                                    <h4>Dogger</h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-xl-4">
+                                    <figure class="figure">
+                                        <img class="figure-img img-fluid rounded" src="images/dunes.jpg" alt="text">
+                                    </figure>
+                                    <h4>Sandbox</h4>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" id="main2">
+                                <div class="col-xs-12 col-sm-6 col-xl-4">
+                                    <figure class="figure">
+                                        <img class="figure-img img-fluid rounded" src="images/grapes.jpg" alt="text">
+                                    </figure>
+                                    <h4>Vine-Yo</h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-xl-4">
+                                    <figure class="figure">
+                                        <img class="figure-img img-fluid rounded" src="images/trail.jpg" alt="text">
+                                    </figure>
+                                    <h4>Trail Finder</h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-4"></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Contact -->
+        <div class="container-fluid" style="padding-top: 1%" id="#contact">
+            <div class="row" id="main">
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
+                <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="card text-left">
+                        <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">Contact</h1>
+                        <hr>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Name">Name:</label>
+                                    <input type="name" class="form-control" id="Name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email1">Email:</label>
+                                    <input type="email" class="form-control" id="Email1" placeholder="Email">
+                                </div>    
+                                <div class="form-group">
+                                    <label for=" Email1msg">Message:</label>
+                                    <textarea name="message" class="form-control" placeholder="Leave a message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-xs-0 col-sm-1 col-md-2"></div>
+            </div>
+        </div>
+
+
+        <footer id="sticky-footer" class="fixed-bottom py-3 bg-dark text-white-50">
+            <div class="container text-center">
+                <small>Copyright &copy;</small>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
