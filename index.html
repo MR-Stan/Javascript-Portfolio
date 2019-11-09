@@ -6,20 +6,34 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Mike Stanley's Portfolio</title>
 </head>
 <!-- landing page with links to all sections -->
 <!-- everything but the landing page is hidden -->
+<div class="container-fluid" id="landing">
+    <img class="card-img-top" src="" alt="">
+    <div class="card-body">
+        <!-- add row / column to make responsive-->
+        <a href="#about" class="btn btn-primary showContent">About Me</a>
+        <a href="#skils" class="btn btn-primary showContent">My Skills</a>
+        <a href="#resume" class="btn btn-primary showContent">My Resume</a>
+        <a href="#projects" class="btn btn-primary showContent">My Projects</a>
+        <a href="#contact" class="btn btn-primary showContent">Contact Me</a>
+    </div>
+</div>
 
 
 <!-- navbar should stick to top of scrolling window -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- navbar toggler not working -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark content">
     <a class="navbar-brand" href="index.html">Mike Stanley</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -28,7 +42,7 @@
                 <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#skills">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -41,13 +55,14 @@
 </nav>
 
 <!-- About -->
+<!-- anchor used for navbar -->
 <a id="about"></a>
-<div class="container-fluid" style="padding-top: 1%">
+<div class="container-fluid content">
     <div class="row" id="main">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
             <div class="card text-left">
-                <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">About Me</h1>
+                <h1>About</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row">
@@ -70,37 +85,32 @@
 </div>
 
 <!-- Skills -->
-<!-- icons with links to all of the different languages and libraries-->
-<!-- bootstrap icon -->
-<i class="fab fa-bootstrap"></i>
-<!-- css icon -->
-<i class="fab fa-css3-alt"></i>
-<!-- html icon -->
-<i class="fab fa-html5"></i>
-<!-- python icon -->
-<i class="fab fa-python"></i>
-<!-- javascript icon -->
-<i class="fab fa-js-square"></i>
-<!-- nodejs icon-->
-<i class="fab fa-node-js"></i>
-<!-- npm icon-->
-<i class="fab fa-npm"></i>
+<!-- anchor used for navbar -->
 <a id="skills"></a>
-<div class="container-fluid" style="padding-top: 1%">
+<div class="container-fluid content">
     <div class="row" id="main">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
             <div class="card text-left">
-                <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">My Skills</h1>
+                <h1>Skills</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row">
-                        <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                                    <img class="card-img" src="images/headshot.jpg" alt="My goofy selfie"">
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-8 col-xl-9 col-xl-10">
-
-                                </div> -->
+                        <!-- icons with links to all of the different languages and libraries-->
+                        <!-- bootstrap icon -->
+                        <i class="fab fa-bootstrap"></i>
+                        <!-- css icon -->
+                        <i class="fab fa-css3-alt"></i>
+                        <!-- html icon -->
+                        <i class="fab fa-html5"></i>
+                        <!-- python icon -->
+                        <i class="fab fa-python"></i>
+                        <!-- javascript icon -->
+                        <i class="fab fa-js-square"></i>
+                        <!-- nodejs icon-->
+                        <i class="fab fa-node-js"></i>
+                        <!-- npm icon-->
+                        <i class="fab fa-npm"></i>
                     </div>
                 </div>
             </div>
@@ -111,35 +121,54 @@
 
 <!-- Resume -->
 <!-- options for pdf, download, drive, etc.-->
-
-
-<!-- separate section for featured projects -->
-<!-- Projects -->
-<a id="projects"></a>
-<div class="container-fluid" style="padding-top: 1%">
+<!-- anchor used for navbar -->
+<a id="resume"></a>
+<div class="container-fluid content">
     <div class="row" id="main">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
             <div class="card text-left">
-                <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">Projects</h1>
+                <h1>Resume</h1>
+                <hr>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- put stuff here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+    </div>
+</div>
+
+<!-- separate section for featured projects -->
+<!-- Projects -->
+<!-- anchor used for navbar -->
+<a id="projects"></a>
+<div class="container-fluid content">
+    <div class="row" id="main">
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <div class="card text-left">
+                <h1>Projects</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row" id="main1">
                         <div class="col-xs-12 col-sm-6 col-xl-4">
                             <figure class="figure">
-                                <img class="figure-img img-fluid rounded" src="images/balloons.jpg" alt="text">
+                                <img class="figure-img img-fluid rounded" src="" alt="text">
                             </figure>
                             <h4>Balloon Game</h4>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-xl-4">
                             <figure class="figure">
-                                <img class="figure-img img-fluid rounded" src="images/dog.jpg" alt="text">
+                                <img class="figure-img img-fluid rounded" src="" alt="text">
                             </figure>
                             <h4>Dogger</h4>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-xl-4">
                             <figure class="figure">
-                                <img class="figure-img img-fluid rounded" src="images/dunes.jpg" alt="text">
+                                <img class="figure-img img-fluid rounded" src="" alt="text">
                             </figure>
                             <h4>Sandbox</h4>
                         </div>
@@ -148,13 +177,13 @@
                     <div class="row" id="main2">
                         <div class="col-xs-12 col-sm-6 col-xl-4">
                             <figure class="figure">
-                                <img class="figure-img img-fluid rounded" src="images/grapes.jpg" alt="text">
+                                <img class="figure-img img-fluid rounded" src="" alt="text">
                             </figure>
                             <h4>Vine-Yo</h4>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-xl-4">
                             <figure class="figure">
-                                <img class="figure-img img-fluid rounded" src="images/trail.jpg" alt="text">
+                                <img class="figure-img img-fluid rounded" src="" alt="text">
                             </figure>
                             <h4>Trail Finder</h4>
                         </div>
@@ -168,30 +197,41 @@
 </div>
 
 <!-- Contact -->
-<!-- contact info (phone and email) -->
-<!-- social media -->
-<!-- github icon -->
-<i class="fab fa-github"></i>
-<!-- linkedin icon -->
-<i class="fab fa-linkedin"></i>
-<!-- instagram icon -->
-<i class="fab fa-instagram"></i>
-<!-- send message (using form below) -->
-<!-- email icon -->
-<!-- when this is clicked, using jquery, show the form below and submit send me an email -->
-<i class="far fa-envelope"></i>
+<!-- anchor used for navbar -->
 <a id="contact"></a>
-<div class="container-fluid" style="padding-top: 1%">
+<div class="container-fluid content">
     <div class="row" id="main">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- all content goes in centered column below -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <!-- put these icons in a card and style them-->
-
-
             <div class="card text-left">
-                <h1 style="color: #4aaaae; padding: 1.5% 0 0 2%;">Contact</h1>
+                <!-- card heading -->
+                <h1>Contact</h1>
                 <hr>
-                <div class="card-body">
+                <!-- contact information -->
+                <div id="contactInfo">
+                    <h4>Phone: (214) 208-9815</h4>
+                    <h4>Email: MichaelRStanley87@gmail.com</h4>
+                </div>
+                <!-- social media links -->
+                <div id="socialMedia">
+                    <div id="gitHub">
+                        <!-- github icon -->
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div id="linkedIn">
+                        <!-- linkedin icon -->
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <!-- email modal button -->
+                    <div id="sendEmail">
+                        <!-- email icon -->
+                        <!-- when this is clicked, using jquery, show the form below and submit send me an email -->
+                        <i class="far fa-envelope"></i>
+                    </div>
+                </div>
+                <!-- this form should be a modal controlled by envelope icon -->
+                <div class="card-body" id="emailForm">
                     <form>
                         <div class="form-group">
                             <label for="Name">Name:</label>
@@ -199,7 +239,7 @@
                         </div>
                         <div class="form-group">
                             <label for="Email1">Email:</label>
-                            <input type="email" class="form-control" id="Email1" placeholder="Email">
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <label for=" Email1msg">Message:</label>
@@ -209,6 +249,8 @@
                         <button type="submit" class="btn btn-info">Submit</button>
                     </form>
                 </div>
+
+
             </div>
         </div>
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
@@ -216,11 +258,12 @@
 </div>
 
 <!-- footer should stick to bottom of page -->
-<footer id="sticky-footer" class="fixed-bottom py-3 bg-dark text-white-50">
+<footer id="sticky-footer" class="fixed-bottom py-3 bg-dark text-white-50 content">
     <div class="container text-center">
         <small>Copyright &copy;</small>
     </div>
 </footer>
+
 <!-- font awesome - icons -->
 <script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
 <!-- jquery -->
@@ -231,6 +274,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
