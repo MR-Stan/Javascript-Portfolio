@@ -1,10 +1,17 @@
 window.onload = function() {
-    $(".content").hide()
+    $(".content").hide();
+    $("#emailForm").hide();
 }
 
 // when .showContent is clicked, $("#landing").hide, $("#content").show
 
-$(".showContent").click(function() {
+$(".showContentBtn").click(function() {
     $("#landing").hide();
     $(".content").show();
 })
+
+
+// submit button on email form
+// $(".submitEmailButton").click(function() {
+    
+// })

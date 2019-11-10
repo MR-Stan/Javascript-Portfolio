@@ -9,7 +9,11 @@ h1 {
 
 
 /* landing page buttons */
-.showContent {
+.showContentBtn {
+    
+}
+
+.showContentBtn :hover {
 
 }
 
@@ -19,5 +23,9 @@ h1 {
 }
 
 figcaption {
+
+}
+
+footer {
     
 }
