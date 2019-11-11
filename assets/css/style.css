@@ -8,6 +8,7 @@ body {
     background-image: url("../images/landingbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -42,10 +43,6 @@ h1 {
     margin-bottom: 2%;
 }
 
-figcaption, .card-text {
-    font-family: 'Roboto', sans-serif;
-}
-
 .card-header, .card-title {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -54,9 +51,9 @@ figcaption, .card-text {
     background-color: rgb(52,58,64);
 }
 
-/* .main-card {
-    border: 2px solid rgb(23,162,184);
-} */
+.main-card {
+    border: 1px solid rgb(83,83,81);
+}
 
 .landing {
     border-radius: 15px;
@@ -73,16 +70,59 @@ figcaption, .card-text {
 .project {
     background-color: rgb(52,58,64);
     color: white;
+    border-radius: 0 0 15px 15px;
 }
 
-.fab {
+.fa-github {
     color: white;
 }
 
-.fab:hover, .showContent:hover {
+.fa-github:hover, .showContent:hover {
     color: rgb(23,162,184);
 }
 
 .embed-responsive:hover {
     opacity: 0.5;
 }
+
+.card-image-top {
+    border-radius: 15px 15px 0 0;
+}
+
+#contactForm {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(52,58,64);
+    color: white;
+    border-radius: 15px;
+}
+
+.roundCorner {
+    border-radius: 15px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(83,83,81);
+}
+
+footer {
+    border-top: 1px solid rgb(83,83,81);
+    line-height: 300%;
+}
+
+.form-control:focus {
+        border-color: rgba(40, 167, 69, 0.25);
+        box-shadow: 0 0 0 0.2rem rgb(23,162,184);
+    } 
+
+.connectIcon {
+    color: black;
+}
+
+.connect {
+    color: rgb(52,58,64);
+}
+
+.connectIcon:hover {
+    color:rgb(23,162,184);
+}
+
