@@ -1,10 +1,10 @@
-window.onload = function() {
+// when the page is loaded, hide everything but the landing section 
+window.onload = function () {
     $(".content").hide();
     $("#emailForm").hide();
 }
 
-// when .showContent is clicked, $("#landing").hide, $("#content").show
-
+// when a button is clicked, landing page is hidden, content is shown, and user is taken to corresponding section
 $(".showContentBtn").click(function() {
     $("#landing").hide();
     $(".content").show();

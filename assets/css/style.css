@@ -2,6 +2,10 @@
 
 }
 
+.card {
+    margin-top: 10%;
+}
+
 h1 {
     color: #4aaaae;
     padding: 1.5% 0 0 2%;
@@ -22,10 +26,18 @@ h1 {
 
 }
 
+.figure {
+   border: 1px solid black;
+}
+
 figcaption {
 
 }
 
 footer {
     
+}
+
+.projectImage {
+    overflow: none;
 }
