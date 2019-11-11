@@ -1,24 +1,24 @@
+body {
+    background-image: url("../images/landingbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
 #landing {
 
 }
 
 .card {
-    margin-top: 10%;
+    margin: 2.5%;
+}
+
+.navbar {
+    margin-bottom: 5%;
 }
 
 h1 {
     color: #4aaaae;
     padding: 1.5% 0 0 2%;
-}
-
-
-/* landing page buttons */
-.showContentBtn {
-    
-}
-
-.showContentBtn :hover {
-
 }
 
 /* github, linkedin, email */
@@ -42,4 +42,21 @@ footer {
 
 .projectImage {
     overflow: none;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    color: rgb(23,162,184);
 }

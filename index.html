@@ -3,35 +3,28 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- local css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Mike Stanley's Portfolio</title>
+
 </head>
 
 <!-- landing page with links to all sections -->
-<!-- everything but the landing page is hidden -->
-<div class="container-fluid" id="landing">
+<div class="container-fluid center-screen" id="landing">
     <div class="card">
         <img class="card-img-top" src="" alt="">
-        <div class="card-body">
+        <div class="card-body text-center">
+            <h5 class="card-title">Mike Stanley</h5>
+            <p class="card-text">Full Stack Web Developer</p>
             <div class="row">
-                <div class="col-sm-12 col-md text-center">
-                    <a href="#about" class="btn btn-primary showContentBtn">About Me</a>
-                </div>
-                <div class="col-sm-12 col-md text-center">
-                    <a href="#skils" class="btn btn-primary showContentBtn">My Skills</a>
-                </div>
-                <div class="col-sm-12 col-md text-center">
-                    <a href="#resume" class="btn btn-primary showContentBtn">My Resume</a>
-                </div>
-                <div class="col-sm-12 col-md text-center">
-                    <a href="#projects" class="btn btn-primary showContentBtn">My Projects</a>
-                </div>
-                <div class="col-sm-12 col-md text-center">
-                    <a href="#contact" class="btn btn-primary showContentBtn">Contact Me</a>
+                <div class="col">
+                    <a href="#about" class="btn btn-primary showContent">Enter</a>
                 </div>
             </div>
         </div>
@@ -40,8 +33,8 @@
 
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark content">
-    <a class="navbar-brand" href="index.html">Mike Stanley</a>
+<nav class="navbar navbar-expand-md fixed-top bg-dark content">
+    <a class="navbar-brand white" href="index.html">Mike Stanley</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler02"
         aria-controls="navbarToggler02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,26 +42,25 @@
     <div class="collapse navbar-collapse" id="navbarToggler02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link white" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link white" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#resume">Resume</a>
+                <a class="nav-link white" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link white" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link white" href="#contact">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <!-- About -->
-<!-- anchor used for navbar -->
 <a id="about"></a>
 <div class="container-fluid content">
     <div class="row">
@@ -466,8 +458,8 @@
     </div>
 </div>
 
-<!-- footer should stick to bottom of page -->
-<footer class="page-footer content">
+<!-- footer -->
+<footer class="page-footer bg-dark text-white content">
     <div class="container text-center">
         <small>&copy; 2019 Mike Stanley</small>
     </div>
@@ -475,16 +467,20 @@
 
 <!-- font awesome - icons -->
 <script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
-<!-- jquery -->
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-<!-- popper for bootstrap -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
 <!-- local javascript -->
 <script src="assets/javascript/app.js"></script>
+
 </body>
 
 </html>
