@@ -48,3 +48,8 @@ footer {
 .embed-responsive .card-img-top {
     object-fit: cover;
 }
+
+.projectBtn {
+    height: 200%;
+    width: auto;
+}
