@@ -1,23 +1,18 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    outline: 0; 
+}
+
 body {
     background-image: url("../images/landingbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
-    padding-top: 70px;
 }
 
 h1 {
-    color: #4aaaae;
+    color: white;
     padding: 1.5% 0 0 2%;
-}
-
-/* github, linkedin, email */
-.connect {
-
-}
-
-
-footer {
-    
 }
 
 /* used for landing screen card */
@@ -39,22 +34,55 @@ footer {
 }
 
 /* used for project images */
-.card-img-top {
-    width: 100%;
-    height: 15vh;
-    object-fit: cover;
-}
-
-/* used for project images */
 .embed-responsive .card-img-top {
     object-fit: cover;
 }
 
-.projectBtn {
-    height: 200%;
-    width: auto;
-}
-
 .content {
     margin-bottom: 2%;
+}
+
+figcaption, .card-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-header, .card-title {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-header {
+    background-color: rgb(52,58,64);
+}
+
+/* .main-card {
+    border: 2px solid rgb(23,162,184);
+} */
+
+.landing {
+    border-radius: 15px;
+}
+
+.card-body {
+    background-color: rgb(240,241,242);
+}
+
+#currentProject {
+    background-color: rgb(52,58,64);
+}
+
+.project {
+    background-color: rgb(52,58,64);
+    color: white;
+}
+
+.fab {
+    color: white;
+}
+
+.fab:hover, .showContent:hover {
+    color: rgb(23,162,184);
+}
+
+.embed-responsive:hover {
+    opacity: 0.5;
 }

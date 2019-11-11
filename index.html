@@ -11,22 +11,20 @@
     <!-- local css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Titillium+Web&display=swap" rel="stylesheet">
+
     <title>Mike Stanley's Portfolio</title>
 
 </head>
 
 <!-- landing page with links to all sections -->
 <div class="container-fluid center-screen" id="landing">
-    <div class="card">
-        <div class="card-body text-center">
+    <div class="card landing">
+        <a href="#about" class="btn showContent">
             <h5 class="card-title">Mike Stanley</h5>
             <p class="card-text">Full Stack Web Developer</p>
-            <div class="row">
-                <div class="col">
-                    <a href="#about" class="btn btn-primary showContent">Enter</a>
-                </div>
-            </div>
-        </div>
+        </a>
     </div>
 </div>
 
@@ -63,11 +61,12 @@
 <a id="about"></a>
 <div class="container-fluid content hide">
     <div class="row">
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-center">
-                <h1 class="card-title">About</h1>
-                <hr>
+            <div class="card text-center main-card">
+                <h1 class="card-header">About</h1>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-3">
@@ -82,10 +81,10 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="card text-white bg-dark mb-2">
-                                <div class="card-body">
+                                <div class="card-body" id="currentProject">
                                     <h5 class="card-title">Current Project</h5>
                                     <a href="https://github.com/MR-Stan/liri-node-app" target="_blank"
-                                        class="btn btn-primary" id="clickButton">Click To See</a>
+                                        class="btn btn-info" id="clickButton">Click To See</a>
                                 </div>
                             </div>
                         </div>
@@ -93,6 +92,7 @@
                 </div>
             </div>
         </div>
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
 </div>
@@ -101,11 +101,12 @@
 <a id="skills"></a>
 <div class="container-fluid content hide">
     <div class="row">
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-center">
-                <h1 class="card-title">Skills</h1>
-                <hr>
+            <div class="card text-center main-card">
+                <h1 class="card-header">Skills</h1>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-6">
@@ -221,6 +222,7 @@
                 </div>
             </div>
         </div>
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
 </div>
@@ -229,11 +231,12 @@
 <a id="resume"></a>
 <div class="container-fluid content hide">
     <div class="row">
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-center">
-                <h1 class="card-title">Resume</h1>
-                <hr>
+            <div class="card text-center main-card">
+                <h1 class="card-header">Resume</h1>
                 <div class="card-body">
                     <div class="row">
                         <!-- resume image here -->
@@ -255,6 +258,7 @@
                 </div>
             </div>
         </div>
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
 </div>
@@ -267,12 +271,11 @@
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-center">
-                <h1 class="card-title">Projects</h1>
-                <hr>
+            <div class="card text-center main-card">
+                <h1 class="card-header">Projects</h1>
                 <div class="card-body">
                     <!-- row 1 featured -->
-                    <h4>Featured</h4>
+                    <h4 class="card-title">Featured</h4>
                     <hr>
                     <div class="row" id="projectRow1">
 
@@ -286,7 +289,7 @@
                                             alt="TollTally Web Application Screenshot">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">TollTally</h5>
                                     <p class="card-text">information</p>
                                     <a href="https://github.com/MR-Stan/Project1" class="btn" target="_blank"><i
@@ -305,7 +308,7 @@
                                             src="assets/images/starwars.PNG" alt="Starwars RPG Screenshot">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">StarWars RPG</h5>
                                     <p class="card-text">information</p>
                                     <a href="https://github.com/MR-Stan/unit-4-game" class="btn" target="_blank"><i
@@ -324,7 +327,7 @@
                                             alt="Train Scheduler Web Application Screenshot">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">Train Scheduler</h5>
                                     <p class="card-text">information</p>
                                     <a href="https://github.com/MR-Stan/Train-Scheduler" class="btn" target="_blank"><i
@@ -336,7 +339,7 @@
                     </div>
                     <br>
                     <!-- row 2 projects -->
-                    <h4>Others</h4>
+                    <h4 class="card-title">Others</h4>
                     <hr>
                     <div class="row" id="projectRow2">
 
@@ -350,7 +353,7 @@
                                             alt="GifTastic Web Application Screenshot">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">GifTastic</h5>
                                     <p class="card-text">information</p>
                                     <a href="https://github.com/MR-Stan/GifTastic" class="btn" target="_blank"><i
@@ -369,7 +372,7 @@
                                             alt="Random Trivia Game Web Application Screenshot">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">Random Trivia Game</h5>
                                     <p class="card-text">information</p>
                                     <a href="https://github.com/MR-Stan/TriviaGame" class="btn" target="_blank"><i
@@ -388,7 +391,7 @@
                                             src="assets/images/comingsoon.jpg" alt="Coming Soon Image">
                                     </a>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body project">
                                     <h5 class="card-title projectLabel">Coming Soon</h5>
                                     <p class="card-text">information</p>
                                     <a href="" class="btn" target="_blank"><i class="fab fa-github fa-2x"></i>
@@ -409,14 +412,14 @@
 <a id="contact"></a>
 <div class="container-fluid content hide">
     <div class="row">
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <!-- all content goes in centered column below -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-center">
+            <div class="card text-center main-card">
                 <div class="card-body">
                     <!-- card heading -->
-                    <h1 class="card-title">Contact</h1>
-                    <hr>
+                    <h1 class="card-header">Contact</h1>
                     <!-- contact information -->
                     <p class="card-text">
                         <h4>Phone: (214) 208-9815</h4>
@@ -437,7 +440,6 @@
                             </a>
                         </div>
                     </p>
-                    <hr>
                     <!-- form to send message to firebase -->
                     <div class="card text-left">
                         <div class="card-body">
@@ -463,6 +465,7 @@
                 </div>
             </div>
         </div>
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
 </div>
