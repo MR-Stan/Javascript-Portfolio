@@ -2,6 +2,7 @@ body {
     background-image: url("../images/landingbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
+    padding-top: 70px;
 }
 
 h1 {
@@ -52,4 +53,8 @@ footer {
 .projectBtn {
     height: 200%;
     width: auto;
+}
+
+.content {
+    margin-bottom: 2%;
 }

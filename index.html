@@ -32,9 +32,9 @@
 
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-md fixed-top bg-dark content">
+<nav class="navbar navbar-expand-md fixed-top bg-dark content hide">
     <a class="navbar-brand white" href="index.html">Mike Stanley</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler02"
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler02"
         aria-controls="navbarToggler02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,12 +61,12 @@
 
 <!-- about -->
 <a id="about"></a>
-<div class="container-fluid content">
+<div class="container-fluid content hide">
     <div class="row">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-left">
-                <h1>About</h1>
+            <div class="card text-center">
+                <h1 class="card-title">About</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row">
@@ -99,12 +99,12 @@
 
 <!-- skills -->
 <a id="skills"></a>
-<div class="container-fluid content">
+<div class="container-fluid content hide">
     <div class="row">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-left">
-                <h1>Skills</h1>
+            <div class="card text-center">
+                <h1 class="card-title">Skills</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row">
@@ -227,12 +227,12 @@
 
 <!-- resume -->
 <a id="resume"></a>
-<div class="container-fluid content">
+<div class="container-fluid content hide">
     <div class="row">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-left">
-                <h1>Resume</h1>
+            <div class="card text-center">
+                <h1 class="card-title">Resume</h1>
                 <hr>
                 <div class="card-body">
                     <div class="row">
@@ -261,14 +261,14 @@
 
 <!-- projects -->
 <a id="projects"></a>
-<div class="container-fluid content">
+<div class="container-fluid content hide">
     <div class="row">
         <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-left">
-                <h1>Projects</h1>
+            <div class="card text-center">
+                <h1 class="card-title">Projects</h1>
                 <hr>
                 <div class="card-body">
                     <!-- row 1 featured -->
@@ -407,23 +407,23 @@
 
 <!-- contact -->
 <a id="contact"></a>
-<div class="container-fluid content">
+<div class="container-fluid content hide">
     <div class="row">
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
         <!-- all content goes in centered column below -->
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <div class="card text-left">
+            <div class="card text-center">
                 <div class="card-body">
                     <!-- card heading -->
-                    <h1>Contact</h1>
+                    <h1 class="card-title">Contact</h1>
                     <hr>
                     <!-- contact information -->
-                    <div class="row" id="contactInfo">
+                    <p class="card-text">
                         <h4>Phone: (214) 208-9815</h4>
                         <h4>Email: MichaelRStanley87@gmail.com</h4>
-                    </div>
-                    <!-- social links -->
-                    <div class="row" id="connect">
+
+                        <!-- social links -->
+
                         <div class="col" id="gitHub">
                             <a href="https://github.com/MR-Stan" target="_blank">
                                 <!-- github icon -->
@@ -436,26 +436,29 @@
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
-                    </div>
+                    </p>
                     <hr>
                     <!-- form to send message to firebase -->
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="Name">Name:</label>
-                                <input type="name" class="form-control" id="Name" placeholder="First Last">
-                            </div>
-                            <div class="form-group">
-                                <label for="Email1">Email:</label>
-                                <input type="email" class="form-control" id="Email" placeholder="email@mydomain.com">
-                            </div>
-                            <div class="form-group">
-                                <label for=" Email1msg">Message:</label>
-                                <textarea name="message" class="form-control" placeholder="Your message goes here"
-                                    required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-info" id="submitMessageButton">Submit</button>
-                        </form>
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Name">Name:</label>
+                                    <input type="name" class="form-control" id="Name" placeholder="First Last">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email1">Email:</label>
+                                    <input type="email" class="form-control" id="Email"
+                                        placeholder="email@mydomain.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for=" Email1msg">Message:</label>
+                                    <textarea name="message" class="form-control" placeholder="Your message goes here"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info" id="submitMessageButton">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -465,7 +468,7 @@
 </div>
 
 <!-- footer -->
-<footer class="page-footer bg-dark text-white content">
+<footer class="page-footer bg-dark text-white hide">
     <div class="container text-center">
         <small>&copy; 2019 Mike Stanley</small>
     </div>
