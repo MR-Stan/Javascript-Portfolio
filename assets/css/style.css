@@ -4,18 +4,6 @@ body {
     background-size: cover;    
 }
 
-#landing {
-
-}
-
-.card {
-    margin: 2.5%;
-}
-
-.navbar {
-    margin-bottom: 5%;
-}
-
 h1 {
     color: #4aaaae;
     padding: 1.5% 0 0 2%;
@@ -26,24 +14,12 @@ h1 {
 
 }
 
-.projectImage {
-   border: 1px solid black;
-   height: 25vh;
-   width: 30vw;
-}
-
-figcaption {
-
-}
 
 footer {
     
 }
 
-.projectImage {
-    overflow: none;
-}
-
+/* used for landing screen card */
 .center-screen {
   display: flex;
   flex-direction: column;
@@ -59,4 +35,16 @@ footer {
 
 .white:hover {
     color: rgb(23,162,184);
+}
+
+/* used for project images */
+.card-img-top {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+/* used for project images */
+.embed-responsive .card-img-top {
+    object-fit: cover;
 }

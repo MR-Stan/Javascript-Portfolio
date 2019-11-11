@@ -18,7 +18,6 @@
 <!-- landing page with links to all sections -->
 <div class="container-fluid center-screen" id="landing">
     <div class="card">
-        <img class="card-img-top" src="" alt="">
         <div class="card-body text-center">
             <h5 class="card-title">Mike Stanley</h5>
             <p class="card-text">Full Stack Web Developer</p>
@@ -60,7 +59,7 @@
     </div>
 </nav>
 
-<!-- About -->
+<!-- about -->
 <a id="about"></a>
 <div class="container-fluid content">
     <div class="row">
@@ -98,8 +97,7 @@
     </div>
 </div>
 
-<!-- Skills -->
-<!-- anchor used for navbar -->
+<!-- skills -->
 <a id="skills"></a>
 <div class="container-fluid content">
     <div class="row">
@@ -226,9 +224,7 @@
     </div>
 </div>
 
-<!-- Resume -->
-<!-- options for pdf, download, drive, etc.-->
-<!-- anchor used for navbar -->
+<!-- resume -->
 <a id="resume"></a>
 <div class="container-fluid content">
     <div class="row">
@@ -262,14 +258,13 @@
     </div>
 </div>
 
-<!-- separate section for featured projects -->
-<!-- Projects -->
-<!-- anchor used for navbar -->
+<!-- projects -->
 <a id="projects"></a>
 <div class="container-fluid content">
     <div class="row">
+        <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
-
+        <!-- content -->
         <div class="col-xs-12 col-sm-10 col-md-8">
             <div class="card text-left">
                 <h1>Projects</h1>
@@ -279,41 +274,63 @@
                     <h4>Featured</h4>
                     <hr>
                     <div class="row" id="projectRow1">
-                        <!-- TollTally App -->
+
+                        <!-- TollTally -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="https://mr-stan.github.io/Project1/" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage"
-                                        src="assets/images/tolltally.PNG" alt="TollTally Web Application Screenshot">
-                                </a>
-                            </figure>
-                            <a href="https://github.com/MR-Stan/Project1" target="_blank">
-                                <h5 class="projectLabel">TollTally</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/Project1/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/tolltally.PNG"
+                                            alt="TollTally Web Application Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">TollTally</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="https://github.com/MR-Stan/Project1" class="btn btn-primary"
+                                        target="_blank">See the code</a>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
                         <!-- Star Wars RPG -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="https://mr-stan.github.io/unit-4-game/" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage"
-                                        src="assets/images/starwars.PNG" alt="Starwars RPG Screenshot">
-                                </a>
-                            </figure>
-                            <a href="https://github.com/MR-Stan/unit-4-game" target="_blank">
-                                <h5 class="projectLabel">Star Wars RPG</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/unit-4-game/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/starwars.PNG" alt="Starwars RPG Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">StarWars RPG</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="https://github.com/MR-Stan/unit-4-game" class="btn btn-primary"
+                                        target="_blank">See the code
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
                         <!-- Train Scheduler -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="https://mr-stan.github.io/Train-Scheduler/" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage" src="assets/images/train.PNG"
-                                        alt="Train Scheduler Web Application Screenshot">
-                                </a>
-                            </figure>
-                            <a href="https://github.com/MR-Stan/Train-Scheduler" target="_blank">
-                                <h5 class="projectLabel">Train Scheduler</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/Train-Scheduler/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item" src="assets/images/train.PNG"
+                                            alt="Train Scheduler Web Application Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">Train Scheduler</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="https://github.com/MR-Stan/Train-Scheduler" class="btn btn-primary"
+                                        target="_blank">See the code
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <br>
@@ -321,85 +338,73 @@
                     <h4>Others</h4>
                     <hr>
                     <div class="row" id="projectRow2">
-                        <!-- -->
+
+                        <!-- GifTastic -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="https://mr-stan.github.io/GifTastic/" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage"
-                                        src="assets/images/gifTastic.PNG" alt="GifTastic Web Application Screenshot">
-                                </a>
-                            </figure>
-                            <a href="https://github.com/MR-Stan/GifTastic" target="_blank">
-                                <h5 class="projectLabel">GifTastic</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/GifTastic/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/gifTastic.PNG"
+                                            alt="GifTastic Web Application Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">GifTastic</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="https://github.com/MR-Stan/GifTastic" class="btn btn-primary"
+                                        target="_blank">See the code
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- -->
+
+                        <!-- Trivia Game -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="https://mr-stan.github.io/TriviaGame/" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage"
-                                        src="assets/images/trivia.PNG"
-                                        alt="Random Trivia Game Web Application Screenshot">
-                                </a>
-                            </figure>
-                            <a href="https://github.com/MR-Stan/TriviaGame" target="_blank">
-                                <h5 class="projectLabel"> Random Trivia</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/TriviaGame/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item" src="assets/images/trivia.PNG"
+                                            alt="Random Trivia Game Web Application Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">Random Trivia Game</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="https://github.com/MR-Stan/TriviaGame" class="btn btn-primary"
+                                        target="_blank">See the code
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Coming Soon -->
                         <div class="col-xs-12 col-sm-6 col-xl-4">
-                            <figure>
-                                <a href="" target="_blank">
-                                    <img class="figure-img img-fluid rounded projectImage"
-                                        src="assets/images/comingsoon.jpg" alt="text">
-                                </a>
-                            </figure>
-                            <a href="" target="_blank">
-                                <h5 class="projectLabel">Coming Soon</h5>
-                            </a>
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/comingsoon.jpg" alt="Coming Soon Image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title projectLabel">Coming Soon</h5>
+                                    <p class="card-text">information</p>
+                                    <a href="" class="btn btn-primary" target="_blank">See the code
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!--
-                    <div class="col-xs-12 col-sm-6 col-xl-4">
-                        <figure>
-                            <a href="" target="_blank">
-                                <img class="figure-img img-fluid rounded projectImage" src="" alt="text">
-                            </a>
-                        </figure>
-                        <a href="" target="_blank">
-                            <h5 class="projectLabel">Name</h5>
-                        </a>
-                    </div>
-                    
-                    <div class="col-xs-12 col-sm-6 col-xl-4">
-                        <figure>
-                            <a href="" target="_blank">
-                                <img class="figure-img img-fluid rounded projectImage" src="" alt="text">
-                            </a>
-                        </figure>
-                        <a href="" target="_blank">
-                            <h5 class="projectLabel">Name</h5>
-                        </a>
-                    </div>
-                    
-                    <div class="col-xs-12 col-sm-6 col-xl-4">
-                        <figure>
-                            <a href="" target="_blank">
-                                <img class="figure-img img-fluid rounded projectImage" src="" alt="text">
-                            </a>
-                        </figure>
-                        <a href="" target="_blank">
-                            <h5 class="projectLabel">Name</h5>
-                        </a>
-                    </div> -->
                 </div>
             </div>
+            <!-- margin -->
+            <div class="col-xs-0 col-sm-1 col-md-2"></div>
         </div>
-        <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
 </div>
 
-<!-- Contact -->
-<!-- anchor used for navbar -->
+<!-- contact -->
 <a id="contact"></a>
 <div class="container-fluid content">
     <div class="row">
@@ -437,16 +442,16 @@
                         <form>
                             <div class="form-group">
                                 <label for="Name">Name:</label>
-                                <input type="name" class="form-control" id="Name" placeholder="Jason Bourne">
+                                <input type="name" class="form-control" id="Name" placeholder="First Last">
                             </div>
                             <div class="form-group">
                                 <label for="Email1">Email:</label>
-                                <input type="email" class="form-control" id="Email" placeholder="jbo@cia.gov">
+                                <input type="email" class="form-control" id="Email" placeholder="email@mydomain.com">
                             </div>
                             <div class="form-group">
                                 <label for=" Email1msg">Message:</label>
-                                <textarea name="message" class="form-control"
-                                    placeholder="What a man can't remember doesn't exist for him." required></textarea>
+                                <textarea name="message" class="form-control" placeholder="Your message goes here"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn btn-info" id="submitMessageButton">Submit</button>
                         </form>
@@ -465,15 +470,20 @@
     </div>
 </footer>
 
-<!-- font awesome - icons -->
+<!-- font awesome -->
 <script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
 
+<!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+
+<!-- bootstrap popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+
+<!-- bootstrap javascript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
