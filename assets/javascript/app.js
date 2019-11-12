@@ -9,7 +9,8 @@ $(".showContent").click(function () {
     $(".hide").show();
     $("body").css({
         "background": "black",
-        "padding-top": "70px"
+        "padding-top": "70px",
+        "overflow": "auto"
     });
     // setTimeOut used to scroll to top after padding-top is added
     setTimeout(function () {
