@@ -65,7 +65,11 @@ h1 {
 .project {
     background-color: rgb(52,58,64);
     color: white;
-    border-radius: 0 0 15px 15px;
+}
+
+.card-footer {
+    background-color: rgb(52,58,64);
+    border-radius: 0 0 15px 5px; 
 }
 
 .fa-github {
