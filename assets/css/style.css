@@ -62,7 +62,7 @@ h1 {
     background-color: rgb(52,58,64);
 }
 
-.project {
+.project, .skills {
     background-color: rgb(52,58,64);
     color: white;
 }
@@ -138,6 +138,6 @@ footer {
     border-radius: 15px;
 }
 
-#aboutText {
-  
+.fab {
+    
 }
