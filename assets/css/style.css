@@ -62,6 +62,10 @@ h1 {
     background-color: rgb(52,58,64);
 }
 
+.curProj {
+    height: 100%;
+}
+
 .project, .skills {
     background-color: rgb(52,58,64);
     color: white;
@@ -76,7 +80,7 @@ h1 {
     color: white;
 }
 
-.fa-github:hover, .showContent:hover {
+.fa-github:hover, .showContent:hover, .fab:hover {
     color: rgb(23,162,184);
 }
 
