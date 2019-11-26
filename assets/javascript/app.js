@@ -27,4 +27,26 @@ $(".showMessage").click(function () {
 // submit button on email form
 // $(".submitMessageButton").click(function() {
 
-// })
+// });
+
+// add new project object to add to portfolio
+// let projObj = [
+//     {
+//         repoLink: "",
+//         projLink: "",
+//         projName: "",
+//         projDesc: ""
+//     }
+// ]
+
+
+
+// dynamically add projects
+// function addProjects() {
+//     // add new row every 3 projects
+//     for (i = 0; i < projObj.length; i++) {
+//         if (i % 3 === 0) {
+//             $("#projectCard").append("<div class='row projectRow'/>");
+//         }
+//     }
+// }
