@@ -142,6 +142,32 @@ footer {
     border-radius: 15px;
 }
 
-.fab {
-    
+
+.chevron {
+    display:inline-block;
+    width: .5em;
+    height: .8em;
+    position:relative;
+}
+.chevron:before,
+.chevron:after {
+    display:block;
+    content:"";
+    width:0;
+    height:0em;
+    border-style:solid;
+    position:absolute;
+}
+.chevron:before {
+    right:0;
+    border-width:.4em 0 .4em .4em;
+    border-color:transparent transparent transparent red;    
+}
+.chevron:after {
+    left:0;
+    border-width:.4em 0 .4em .4em;
+    border-color:transparent transparent transparent #fff;    
+}
+.chevron.fat {
+    width:.6em;
 }
