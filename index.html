@@ -19,19 +19,18 @@
 </head>
 
 <!-- landing page with links to all sections -->
-<div class="container-fluid center-screen" id="landing">
+<!-- <div class="container-fluid center-screen" id="landing">
     <div class="card landing">
         <a href="#about" class="btn showContent">
             <h5 class="card-title">Mike Stanley</h5>
             <p class="card-text">Full Stack Web Developer</p>
         </a>
     </div>
-    <i class="chevron fat"></i>
-</div>
+</div> -->
 
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-md fixed-top bg-dark content hide">
+<nav class="navbar navbar-expand-md fixed-top bg-dark content">
     <a class="navbar-brand white" href="index.html">Mike Stanley</a>
     <a class="navbar-brand white" href="https://github.com/MR-Stan" target="_blank">
         <i class="fab fa-github"></i>
@@ -46,29 +45,26 @@
     <div class="collapse navbar-collapse" id="navbarToggler02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link white" href="#about">About</a>
+                <a class="nav-link white" href="" id="aboutLink">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link white" href="#skills">Skills</a>
+                <a class="nav-link white" href="">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link white" href="#resume">Resume</a>
+                <a class="nav-link white" href="">Resume</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link white" href="#projects">Projects</a>
+                <a class="nav-link white" href="">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link white" href="#contact">Contact</a>
+                <a class="nav-link white" href="">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <!-- about -->
-<a id="about"></a>
-<br>
-<br>
-<div class="container-fluid content hide" id="aboutSection">
+<div class="container-fluid content" id="aboutSection">
     <div class="row">
         <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
@@ -96,8 +92,8 @@
                             <div class="card text-white bg-dark mb-2 curProj">
                                 <div class="card-body" id="currentProject">
                                     <h5 class="card-title">Current Project</h5>
-                                    <a href="https://github.com/MR-Stan/Burger2" target="_blank" class="btn btn-info"
-                                        id="clickButton">Click To See</a>
+                                    <a href="https://github.com/MR-Stan/News-Scraper" target="_blank"
+                                        class="btn btn-info" id="clickButton">Click To See</a>
                                 </div>
                             </div>
                         </div>
@@ -111,10 +107,7 @@
 </div>
 
 <!-- skills -->
-<a id="skills"></a>
-<br>
-<br>
-<div class="container-fluid content hide" id="skillsSection">
+<div class="container-fluid content" id="skillsSection">
     <div class="row">
         <!-- margin -->
         <div class="col-xs-0 col-sm-1 col-md-2"></div>
@@ -263,289 +256,218 @@
             <div class="col-xs-0 col-sm-1 col-md-2"></div>
         </div>
     </div>
+</div>
 
-    <!-- resume -->
-    <a id="resume"></a>
-    <br>
-    <br>
-    <div class="container-fluid content hide" id="resumeSection">
-        <div class="row">
-            <!-- margin -->
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
-            <!-- content -->
-            <div class="col-xs-12 col-sm-10 col-md-8">
-                <div class="card text-center main-card">
-                    <h1 class="card-header">Resume</h1>
-                    <div class="card-image-top">
-                        <embed id="resume" src="assets/resume/Mike Stanley Resume.pdf">
-                    </div>
-                    <div class="card-body">
-                        <div class="card-text" id="resumeCardText">
-                            <h4>
-                                <!-- pdf -->
-                                <a href="assets/resume/Mike Stanley Resume.pdf" target="_blank">
-                                    <i class="fas fa-file-pdf fa-lg connectIcon"></i>
-                                </a>
-                                <!-- download -->
-                                <a href="assets/resume/Mike Stanley Resume.docx" target="_blank">
-                                    <i class="fas fa-file-download fa-lg connectIcon"></i>
-                                </a>
-                                <!-- google drive -->
-                                <a href="https://drive.google.com/open?id=1GAaT9cr7mCTVRJEKK1G4dGDwc3eT1lt9"
-                                    target="_blank">
-                                    <i class="fab fa-google-drive fa-lg connectIcon"></i>
-                                </a>
-                            </h4>
-                        </div>
+
+<!-- resume -->
+<div class="container-fluid content" id="resumeSection">
+    <div class="row">
+        <!-- margin -->
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- content -->
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <div class="card text-center main-card">
+                <h1 class="card-header">Resume</h1>
+                <div class="card-image-top">
+                    <embed id="resume" src="assets/resume/Mike Stanley Resume.pdf">
+                </div>
+                <div class="card-body">
+                    <div class="card-text" id="resumeCardText">
+                        <h4>
+                            <!-- pdf -->
+                            <a href="assets/resume/Mike Stanley Resume.pdf" target="_blank">
+                                <i class="fas fa-file-pdf fa-lg connectIcon"></i>
+                            </a>
+                            <!-- download -->
+                            <a href="assets/resume/Mike Stanley Resume.docx" target="_blank">
+                                <i class="fas fa-file-download fa-lg connectIcon"></i>
+                            </a>
+                            <!-- google drive -->
+                            <a href="https://drive.google.com/open?id=1GAaT9cr7mCTVRJEKK1G4dGDwc3eT1lt9"
+                                target="_blank">
+                                <i class="fab fa-google-drive fa-lg connectIcon"></i>
+                            </a>
+                        </h4>
                     </div>
                 </div>
             </div>
-            <!-- margin -->
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
         </div>
+        <!-- margin -->
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
     </div>
+</div>
 
-    <!-- projects -->
-    <a id="projects"></a>
-    <br>
-    <br>
-    <div class="container-fluid content hide" id="projectsSection">
-        <div class="row">
-            <!-- margin -->
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
-            <!-- content -->
-            <div class="col-xs-12 col-sm-10 col-md-8">
-                <div class="card text-center main-card">
-                    <h1 class="card-header">Projects</h1>
-                    <div class="card-body" id="projectCard">
-                        <!-- row 1 featured -->
-                        <h4 class="card-title">Featured</h4>
-                        <hr>
-                        <div class="row projectRow">
+<!-- projects -->
+<div class="container-fluid content" id="projectsSection">
+    <div class="row">
+        <!-- margin -->
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- content -->
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <div class="card text-center main-card">
+                <h1 class="card-header">Projects</h1>
+                <div class="card-body" id="projectCard">
+                    <!-- row 1 featured -->
+                    <h4 class="card-title">Featured</h4>
+                    <hr>
+                    <div class="row projectRow">
 
-                            <!-- TollTally -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://mr-stan.github.io/Project1/" target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/tolltally.PNG"
-                                                alt="TollTally Web Application Screenshot">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">TollTally</h5>
-                                        <p class="card-text">This mobile responsive application allows the user to
-                                            calculate
-                                            toll costs between two points. It was created with HTML,
-                                            CSS,Bootstrap, Javascript, jQuery, jQueryUI, Moment.js, and Firebase.
-                                            The
-                                            following API's were used: TollGuru, Google
-                                            Directions, Google Distance Matrix, Google Geocoding, Google Maps
-                                            Javascript,
-                                            and Google Places.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/Project1" class="btn" target="_blank"><i
-                                                class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                        <!-- TollTally -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://mr-stan.github.io/Project1/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/tolltally.PNG"
+                                            alt="TollTally Web Application Screenshot">
+                                    </a>
                                 </div>
-                            </div>
-
-                            <!-- burger -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://damp-coast-89242.herokuapp.com/index" target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/burger.PNG" alt="Burger App Screenshot">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">Burger App</h5>
-                                        <p class="card-text">A Node, Express, Handlebars, and MySQL burger themed web
-                                            application that lets users input the names of burgers they'd like to eat...
-                                            and
-                                            then devour them.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/burger" class="btn" target="_blank"><i
-                                                class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">TollTally</h5>
+                                    <p class="card-text">This mobile responsive application allows the user to
+                                        calculate
+                                        toll costs between two points. It was created with HTML,
+                                        CSS,Bootstrap, Javascript, jQuery, jQueryUI, Moment.js, and Firebase.
+                                        The
+                                        following API's were used: TollGuru, Google
+                                        Directions, Google Distance Matrix, Google Geocoding, Google Maps
+                                        Javascript,
+                                        and Google Places.</p>
                                 </div>
-                            </div>
-
-                            <!-- BAMazon -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://github.com/MR-Stan/BAMazon" target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/bamazon.PNG"
-                                                alt="BAMazon Command Line Store Screenshot">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">BAMazon</h5>
-                                        <p class="card-text">BAMazon is a command line based store.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/BAMazon" class="btn" target="_blank"><i
-                                                class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/Project1" class="btn" target="_blank"><i
+                                            class="fab fa-github fa-2x"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <!-- row 2 projects -->
-                        <h4 class="card-title">Others</h4>
-                        <hr>
-                        <div class="row projectRow">
 
-                            <!-- Friend Finder -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://vast-gorge-11966.herokuapp.com/" target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/friend.PNG" alt="Friend Finder Web Application">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">Friend Finder</h5>
-                                        <p class="card-text">Friend Finder is a match making application
-                                            which was created using the express package for node.js. This app
-                                            utilizes express to serve 1 static HTML page, 1 dynamic HTML page,
-                                            and 2 API routes to get and post data.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/FriendFinder" class="btn" target="_blank"><i
-                                                class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                        <!-- burger -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://damp-coast-89242.herokuapp.com/index" target="_blank">
+                                        <img class="card-image-top embed-responsive-item" src="assets/images/burger.PNG"
+                                            alt="Burger App Screenshot">
+                                    </a>
+                                </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">Burger App</h5>
+                                    <p class="card-text">A Node, Express, Handlebars, and MySQL burger themed web
+                                        application that lets users input the names of burgers they'd like to eat...
+                                        and
+                                        then devour them.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/burger" class="btn" target="_blank"><i
+                                            class="fab fa-github fa-2x"></i>
+                                    </a>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Command Line Word Guess -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://github.com/MR-Stan/Word-Guess-Command-Line-Game"
-                                            target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/wordguesscommandline.PNG"
-                                                alt="Word Guess Command Line Image">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">Word Guess Command Line</h5>
-                                        <p class="card-text">Word Guess Command Line Game is a hangman style game played
-                                            from the console where the user guesses a variety of words
-                                            one letter at a time. This game was made with node.js and the npm inquirer
-                                            package.
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/Word-Guess-Command-Line-Game" class="btn"
-                                            target="_blank"><i class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                        <!-- BAMazon -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://github.com/MR-Stan/BAMazon" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/bamazon.PNG" alt="BAMazon Command Line Store Screenshot">
+                                    </a>
                                 </div>
-                            </div>
-
-                            <!-- LIRI Bot -->
-                            <div class="col-sm-12 col-lg-4">
-                                <div class="card roundCorner h-100">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <a href="https://github.com/MR-Stan/liri-node-app" target="_blank">
-                                            <img class="card-image-top embed-responsive-item"
-                                                src="assets/images/liri.PNG" alt="LIRI Bot Screen Shot">
-                                        </a>
-                                    </div>
-                                    <div class="card-body project">
-                                        <h5 class="card-title projectLabel">LIRI Bot</h5>
-                                        <p class="card-text">LIRI (Language Interpretation and Recognition Interface)
-                                            Bot is a command line node application that takes in a variety
-                                            of parameters and returns corresponding data. To accomplish this, it
-                                            utilizes three API's: BandsInTown, Spotify, and
-                                            OMDB. Along with these API's, LIRI Bot was built with node.js, axios,
-                                            moment.js, and dotenv.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="https://github.com/MR-Stan/liri-node-app" class="btn align-self-auto"
-                                            target="_blank"><i class="fab fa-github fa-2x"></i>
-                                        </a>
-                                    </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">BAMazon</h5>
+                                    <p class="card-text">BAMazon is a command line based store.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/BAMazon" class="btn" target="_blank"><i
+                                            class="fab fa-github fa-2x"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- margin -->
-                <div class="col-xs-0 col-sm-1 col-md-2"></div>
-            </div>
-        </div>
-    </div>
+                    <br>
+                    <!-- row 2 projects -->
+                    <h4 class="card-title">Others</h4>
+                    <hr>
+                    <div class="row projectRow">
 
-    <!-- contact -->
-    <a id="contact"></a>
-    <br>
-    <br>
-    <div class="container-fluid content hide contactSection">
-        <div class="row">
-            <!-- margin -->
-            <div class="col-xs-0 col-sm-1 col-md-2"></div>
-            <!-- all content goes in centered column below -->
-            <div class="col-xs-12 col-sm-10 col-md-8">
-                <div class="card text-center main-card">
-                    <h1 class="card-header">Contact</h1>
-                    <div class="card-body">
-                        <!-- contact information -->
-                        <p class="card-text">
-                            <h4><a href="tel:+2142089815" class="connect"><i
-                                        class="fas fa-mobile-alt connectIcon"></i></a>
-                                (214)208-9815</h4>
-                            <h4><a href="mailto:michaelrstanley87@gmail.com" class="connect"><i
-                                        class="fas fa-envelope connectIcon"></i></a>
-                                MichaelRStanley87@gmail.com</h4>
-                            <!-- social links -->
-                            <h4>
-                                <a href="https://github.com/MR-Stan" target="_blank">
-                                    <!-- github icon -->
-                                    <i class="fab fa-github fa-lg connectIcon"></i>
-                                </a>
+                        <!-- Friend Finder -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://vast-gorge-11966.herokuapp.com/" target="_blank">
+                                        <img class="card-image-top embed-responsive-item" src="assets/images/friend.PNG"
+                                            alt="Friend Finder Web Application">
+                                    </a>
+                                </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">Friend Finder</h5>
+                                    <p class="card-text">Friend Finder is a match making application
+                                        which was created using the express package for node.js. This app
+                                        utilizes express to serve 1 static HTML page, 1 dynamic HTML page,
+                                        and 2 API routes to get and post data.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/FriendFinder" class="btn" target="_blank"><i
+                                            class="fab fa-github fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-                                <a href="https://www.linkedin.com/in/MR-Stan" target="_blank">
-                                    <!-- linkedin icon -->
-                                    <i class="fab fa-linkedin fa-lg connectIcon"></i>
-                                </a>
-                            </h4>
-                        </p>
-                        <!-- form to send message to firebase -->
-                        <div class="card text-left roundCorner">
-                            <div class="card-body" id="contactForm">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="Name">Name:</label>
-                                        <input type="name" class="form-control" id="Name" placeholder="First Last">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Email1">Email:</label>
-                                        <input type="email" class="form-control" id="Email"
-                                            placeholder="email@mydomain.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for=" Email1msg">Message:</label>
-                                        <textarea name="message" class="form-control"
-                                            placeholder="Your message goes here" required></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-info" id="submitMessageButton">Submit</button>
-                                </form>
+                        <!-- Command Line Word Guess -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://github.com/MR-Stan/Word-Guess-Command-Line-Game" target="_blank">
+                                        <img class="card-image-top embed-responsive-item"
+                                            src="assets/images/wordguesscommandline.PNG"
+                                            alt="Word Guess Command Line Image">
+                                    </a>
+                                </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">Word Guess Command Line</h5>
+                                    <p class="card-text">Word Guess Command Line Game is a hangman style game played
+                                        from the console where the user guesses a variety of words
+                                        one letter at a time. This game was made with node.js and the npm inquirer
+                                        package.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/Word-Guess-Command-Line-Game" class="btn"
+                                        target="_blank"><i class="fab fa-github fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LIRI Bot -->
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card roundCorner h-100">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <a href="https://github.com/MR-Stan/liri-node-app" target="_blank">
+                                        <img class="card-image-top embed-responsive-item" src="assets/images/liri.PNG"
+                                            alt="LIRI Bot Screen Shot">
+                                    </a>
+                                </div>
+                                <div class="card-body project">
+                                    <h5 class="card-title projectLabel">LIRI Bot</h5>
+                                    <p class="card-text">LIRI (Language Interpretation and Recognition Interface)
+                                        Bot is a command line node application that takes in a variety
+                                        of parameters and returns corresponding data. To accomplish this, it
+                                        utilizes three API's: BandsInTown, Spotify, and
+                                        OMDB. Along with these API's, LIRI Bot was built with node.js, axios,
+                                        moment.js, and dotenv.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://github.com/MR-Stan/liri-node-app" class="btn align-self-auto"
+                                        target="_blank"><i class="fab fa-github fa-2x"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -555,35 +477,96 @@
             <div class="col-xs-0 col-sm-1 col-md-2"></div>
         </div>
     </div>
+</div>
 
-    <!-- footer -->
-    <footer class="page-footer bg-dark text-white hide">
-        <div class="container text-center">
-            <small>&copy; 2020 Mike Stanley</small>
+<!-- contact -->
+<div class="container-fluid content contactSection">
+    <div class="row">
+        <!-- margin -->
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+        <!-- all content goes in centered column below -->
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <div class="card text-center main-card">
+                <h1 class="card-header">Contact</h1>
+                <div class="card-body">
+                    <!-- contact information -->
+                    <p class="card-text">
+                        <h4><a href="tel:+2142089815" class="connect"><i class="fas fa-mobile-alt connectIcon"></i></a>
+                            (214)208-9815</h4>
+                        <h4><a href="mailto:michaelrstanley87@gmail.com" class="connect"><i
+                                    class="fas fa-envelope connectIcon"></i></a>
+                            MichaelRStanley87@gmail.com</h4>
+                        <!-- social links -->
+                        <h4>
+                            <a href="https://github.com/MR-Stan" target="_blank">
+                                <!-- github icon -->
+                                <i class="fab fa-github fa-lg connectIcon"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/MR-Stan" target="_blank">
+                                <!-- linkedin icon -->
+                                <i class="fab fa-linkedin fa-lg connectIcon"></i>
+                            </a>
+                        </h4>
+                    </p>
+                    <!-- form to send message to firebase -->
+                    <div class="card text-left roundCorner">
+                        <div class="card-body" id="contactForm">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Name">Name:</label>
+                                    <input type="name" class="form-control" id="Name" placeholder="First Last">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email1">Email:</label>
+                                    <input type="email" class="form-control" id="Email"
+                                        placeholder="email@mydomain.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for=" Email1msg">Message:</label>
+                                    <textarea name="message" class="form-control" placeholder="Your message goes here"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info" id="submitMessageButton">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <!-- margin -->
+        <div class="col-xs-0 col-sm-1 col-md-2"></div>
+    </div>
+</div>
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
+<!-- footer -->
+<footer class="page-footer bg-dark text-white hide">
+    <div class="container text-center">
+        <small>&copy; 2020 Mike Stanley</small>
+    </div>
+</footer>
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/b70c89d96b.js" crossorigin="anonymous"></script>
 
-    <!-- bootstrap popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 
-    <!-- bootstrap javascript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+<!-- bootstrap popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
 
-    <!-- local javascript -->
-    <script src="assets/javascript/app.js"></script>
+<!-- bootstrap javascript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    </body>
+<!-- local javascript -->
+<script src="assets/javascript/app.js"></script>
+
+</body>
 
 </html>
