@@ -1,11 +1,7 @@
 body {
-    /* background-image: url("../images/landingbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;     */
     font-family: 'Roboto', sans-serif;
-    /* overflow: hidden; */
     background-color: black;
-    padding-top: 70px;
+    padding-top: 15%;
     overflow: auto;
 }
 
@@ -110,10 +106,10 @@ h1 {
     border-bottom: 1px solid rgb(83,83,81);
 }
 
-footer {
+/* footer {
     border-top: 1px solid rgb(83,83,81);
     line-height: 300%;
-}
+} */
 
 .form-control:focus {
     border-color: rgba(40, 167, 69, 0.25);
@@ -131,6 +127,7 @@ footer {
 .connectIcon:hover {
     color:rgb(23,162,184);
 }
+
 
 #resume {
     height: 80vh;
